@@ -11,7 +11,7 @@ const Hero = () => {
   
 <div className='bg-white'>
 <h1 className=' text-center text-emerald-950 mt-96 text-[60px]'>Welcome to HEKTO Your Reliable Car Rental Service</h1>
-<p className='text-center text-amber-700 text-2xl'>At HEKTO, we offer a wide range of cars for every need, whether you're traveling for business or leisure. With competitive pricing, convenient pickup and drop-off locations, and 24/7 customer support, we make renting a car simple and stress-free.</p>
+<p className='text-center text-amber-700 text-2xl'>At HEKTO we offer a wide range of cars for every need, whether you are traveling for business or leisure. With competitive pricing, convenient pickup and drop-off locations, and 24/7 customer support, we make renting a car simple and stress-free.</p>
 <h3 className='text-center text-4xl text-emerald-950 mt-10'>Why Choose Us</h3>
 <ul>
   <li className='text-center text-2xl  text-amber-700'><span className='text-emerald-950'>Variety of Vehicles:</span>From economy cars to luxury models and SUVs.</li>
