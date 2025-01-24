@@ -1,0 +1,20 @@
+.bt{
+    background-color: rgb(19, 43, 43);
+    margin-top: 32%;margin-left:14%;
+    padding: 7px 25px;
+    border-radius: 8px;
+   
+color: white;
+}
+.bt:hover{
+    color:  #ec920b;
+ 
+}
+
+.hero {
+    background-image: url('/home.png');
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    margin-bottom: 50%;
+  }

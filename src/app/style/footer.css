@@ -1,0 +1,27 @@
+.Footer1{
+  background-color: rgb(19, 43, 43);
+margin-bottom: 0px;
+    display: flex;
+    justify-content: space-evenly ;
+    align-items: center;
+    font-size: 18px;
+    caret-color: transparent;
+    color: #ffffff;
+}
+.Footer1:hover{
+  color: #ec920b;
+}
+.so{
+  color: #ffffff;
+ display: flex;
+margin-left: 10px;
+
+
+}
+.so:hover{
+  color: #ec920b;
+  cursor: pointer;
+}
+.so1{
+  display: flex;
+}

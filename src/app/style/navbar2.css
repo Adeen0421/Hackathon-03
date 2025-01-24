@@ -1,0 +1,85 @@
+
+header{
+    background-color: rgb(19, 43, 43);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    caret-color: transparent;
+}
+.akj {
+
+    display:flex;
+    margin-top: 0%;
+    
+}
+.logo h1{
+    background-color:rgb(19, 43, 43);
+}
+
+.a66{
+   background-color: rgb(19, 43, 43);
+    font-family: "Lato";
+    font-size: 22px;
+    padding:0 10px  
+}
+.a7{
+
+    text-decoration: none;
+    color :#ffffff;  
+    gap: 20px;
+    background-color: rgb(19, 43, 43);
+    font-family: "Lato";
+    font-size: 22px;
+    padding:0 10px  ;
+    list-style: none;
+    margin-top: 0px;
+}
+
+ .a7:hover{
+    color: #ec920b;
+    transition: 0.3s ease;
+}
+
+   
+h1{
+    font-size: 40px;
+    font-family: " Josefin Sans";
+    color: white;
+  
+}
+
+    
+
+
+    @media (max-width:1000px){
+        .search2{
+            display: none;
+        }
+       
+        .logo h1{
+            font-size: 18px;
+        }
+.a7{
+    font-size: 14px;
+    margin-top:0%;
+}.dropbtn .a7{
+    margin-top: 15%;
+}
+ 
+    }
+
+
+
+    @media (max-width:420px){
+      
+     
+        .logo h1{
+            font-size: 14px;
+        }
+    }
+
+
+
+
+
+ 
