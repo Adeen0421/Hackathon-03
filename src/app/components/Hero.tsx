@@ -1,6 +1,6 @@
 "use client"
 import React, { useState, useEffect } from "react";
-import {  four } from "@/sanity/lib/queries";
+import {  allProducts, four } from "@/sanity/lib/queries";
 import { Product } from "../../../types/product";
 import { client } from "@/sanity/lib/client";
 import '../style/hero.css'
@@ -15,7 +15,7 @@ const [products, setProducts] = useState<Product[]>([]);
   const [filteredProducts, setFilteredProducts] = useState<Product[]>([]);
     useEffect(() => {
       async function fetchProducts() {
-        const fetchedProducts: Product[] = await client.fetch(four);
+        const fetchedProducts: Product[] = await client.fetch(allProducts);
         setProducts(fetchedProducts);
         setFilteredProducts(fetchedProducts); // Initialize filteredProducts
       }
