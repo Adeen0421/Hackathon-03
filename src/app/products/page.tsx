@@ -85,9 +85,9 @@ const Page = () => {
                 <Image
                   src={urlFor(product.image).url()}
                   alt={product.name}
-                  width={200}
-                  height={200}
-                  className="img11"
+                  width={300} // Adjust width
+  height={200} // Adjust height for uniformity
+  className="w-full h-[200px] object-cover rounded-lg"
                 />
               )}
               <h2 className="text-lg font-semibold mt-4">{product.name}</h2>

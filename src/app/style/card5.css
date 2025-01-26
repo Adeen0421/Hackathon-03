@@ -1,0 +1,86 @@
+.mcars5{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    
+   
+
+
+  
+    
+  }
+
+  .car-card5{
+    width:85%;
+    background-color: white;
+  border-radius: 10px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+   
+  }
+
+
+ 
+  .car-card5 h3{
+   
+    color:#000000;
+    font-family: Arial, Helvetica, sans-serif;   
+margin-left: 10px;
+    font-size: 18px;
+  }
+  .car-card5 p{
+    color:#72718F;
+margin-left: 10px;
+    font-size: 16px ;
+    font-weight: 400;
+    
+   
+  }
+
+
+
+
+
+.car-card5 img{
+  width: 370px;
+  height:230px;
+
+  
+}
+
+
+.at5{
+    background-color: #ffffff;
+    text-align: left;
+  
+
+
+}
+.car-card5 h3:hover{
+
+  color: #ec920b;
+}
+.aop5:hover{
+  color: #ec920b;
+}
+
+.aop5{
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+ 
+    color: #000000;
+
+}
+
+.alp5{
+  color: #ec920b;
+ 
+}
+.alpp5 p{
+   color: #000000;
+   
+}
+.alp55{
+  color: #ec920b;
+ 
+}
