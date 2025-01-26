@@ -15,7 +15,7 @@ const [products, setProducts] = useState<Product[]>([]);
   const [filteredProducts, setFilteredProducts] = useState<Product[]>([]);
     useEffect(() => {
       async function fetchProducts() {
-        const fetchedProducts: Product[] = await client.fetch(allProducts);
+        const fetchedProducts: Product[] = await client.fetch(four);
         setProducts(fetchedProducts);
         setFilteredProducts(fetchedProducts); // Initialize filteredProducts
       }
